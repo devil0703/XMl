@@ -1,0 +1,106 @@
+<ExamManagementEventNotification xmlns="http://va.gov/vler/schemas/vlerSupersetSchema/examManagement/4.3">
+  <OriginatingSystem participatingSystemName="VBMS" />
+  <Destination participatingSystemName="VBA Contractor" contractorName="VES" />
+  <EditedRequestClarificationResponse contractId="MDE1118_R3_VES" sensitivityLevel="0" eventUuid="${__UUID}" previousEventUuid="${__UUID}" eventDtg="2023-09-20T16:59:58.741-04:00" modelVersion="4.3" examSchedulingRequestUuid="537515632222870
+">
+    <EventSource participatingSystemName="VBMS" />
+    <PostDischargeClaimInformation claimDate="${__time(yyyy-MM-dd HH:mm,)}" claimLabel="New" endProductCode="020NEW" claimPayeeCode="00" benefitProgramType="CP Live">
+      <VeteranServiceMemberInfo EDIPI="EDIPI" fullName="${fullName}" lastName="Bern" firstName="Ronald" middleName="${middleName}" gender="Female" dateOfBirth="1985-06-25" regionalOfficeCode="339" fileNumber="${__RandomString(9,1234567890,)}" emailAddress="${__RandomString(5,abcdefghijklmopqestuvwxyz)}@maximus.com">
+        <Address>
+          <Address1>makrd</Address1>
+          <City>New York</City>
+          <State>Texas</State>
+          <ZipOrPostalCode>99565</ZipOrPostalCode>
+          <Country>USA</Country>
+        </Address>
+        <Phone primaryPhone="${phone}" />
+        <PeriodsOfService>
+          <Period branchOfService="Air Force" entryOnDuty="2005-01-25-05:00" radDate="2011-01-24-05:00">
+            <Eras>
+              <Era>Gulf War</Era>
+            </Eras>
+          </Period>
+        </PeriodsOfService>
+      </VeteranServiceMemberInfo>
+    </PostDischargeClaimInformation>
+    <ExamPrioritizationSpecialIssues>
+      <VeteranSpecialIssue>FDC Program</VeteranSpecialIssue>
+    </ExamPrioritizationSpecialIssues>
+    <ExamRelatedContentions>
+      <ExamRelatedContention examRelatedContentionUuid="1b16a33e-2295-4747-a436-31265f305cdf" contentionType="NEW" dodReferred="false" aceEligible="false" medicalOpinionNeeded="true">
+        <ContentionName>Gastroesophageal Reflux Disease (GERD)</ContentionName>
+        <Classification code="8968" name="Digestive" />
+        <ContentionNarrative>
+          <NarrativeEntry title="Special Instructions">N/A</NarrativeEntry>
+        </ContentionNarrative>
+        <DbqRequests>
+          <DbqRequest name="DBQ General Medical - Gulf War" />
+          <DbqRequest name="DBQ Medical Opinion" />
+          <DbqRequest name="DBQ GI Esophageal Disorders" />
+        </DbqRequests>
+        <MedicalOpinionRequests>
+          <GeneralMedicalGulfWarOpinion />
+          <TabbedEvidence />
+        </MedicalOpinionRequests>
+        <ContentionPrioritizationSpecialIssues>
+          <ContentionSpecialIssue>PACT</ContentionSpecialIssue>
+        </ContentionPrioritizationSpecialIssues>
+        <StandardLanguageEntries>
+          <StandardLanguageEntry>MEDICAL OPINION REQUESTED: General Medical Gulf War Opinion</StandardLanguageEntry>
+          <StandardLanguageEntry> </StandardLanguageEntry>
+          <StandardLanguageEntry>Please examine and evaluate this Veteran with Southwest Asia service for any chronic disability pattern. Please review the claims file as part of your evaluation and state that it was reviewed. The Veteran has claimed a disability pattern related to Gastroesophageal Reflux Disease (GERD)</StandardLanguageEntry>
+          <StandardLanguageEntry> </StandardLanguageEntry>
+          <StandardLanguageEntry>Please provide a medical statement explaining whether the Veteran's disability pattern is:</StandardLanguageEntry>
+          <StandardLanguageEntry>(1) an undiagnosed illness</StandardLanguageEntry>
+          <StandardLanguageEntry> </StandardLanguageEntry>
+          <StandardLanguageEntry>(2) a diagnosable but medically unexplained chronic multi-symptom illness of unknown etiology</StandardLanguageEntry>
+          <StandardLanguageEntry> </StandardLanguageEntry>
+          <StandardLanguageEntry>(3) a diagnosable chronic multi-symptom illness with a partially explained etiology, or</StandardLanguageEntry>
+          <StandardLanguageEntry> </StandardLanguageEntry>
+          <StandardLanguageEntry>(4) a disease with a clear and specific etiology and diagnosis.</StandardLanguageEntry>
+          <StandardLanguageEntry> </StandardLanguageEntry>
+          <StandardLanguageEntry>If, after reviewing the claims file, you determine that the Veteran's disability pattern was either (1) an undiagnosed illness; or (2) a diagnosable but medically unexplained chronic multi-symptom illness of unknown etiology, then no medical opinion or rationale is required as these conditions are presumed to be caused by service in the Southwest Asia theater of operations.</StandardLanguageEntry>
+          <StandardLanguageEntry> </StandardLanguageEntry>
+          <StandardLanguageEntry>If, after reviewing the claims file, you determine that the Veteran’s disability pattern was either (3) a diagnosable chronic multi-symptom illness with a partially explained etiology, or (4) a disease with a clear and specific etiology and diagnosis, then please complete the Medical Opinion for Toxic Exposure Risk Activities.</StandardLanguageEntry>
+          <StandardLanguageEntry> </StandardLanguageEntry>
+          <StandardLanguageEntry>TYPE OF MEDICAL OPINION REQUESTED: Toxic Exposure Risk Activities. Does the Veteran have a diagnosis of (a) Gastroesophageal Reflux Disease (GERD) that is at least as likely as not (likelihood is at least approximately balanced or nearly equal, if not higher) caused by (the) Southwest Asia Deployments | Military Occupational Specialty Exposures after considering the total potential exposure through all applicable military deployments of the Veteran and the synergistic combined effect of all toxic exposure risk activities of the Veteran? Rationale must be provided in the appropriate section. Please review the Veterans electronic folder(s) and state that it was reviewed in your report. </StandardLanguageEntry>
+          <StandardLanguageEntry> </StandardLanguageEntry>
+          <StandardLanguageEntry> </StandardLanguageEntry>
+          <StandardLanguageEntry>The Veteran needs to report for all examinations for the following Contention:</StandardLanguageEntry>
+          <StandardLanguageEntry> </StandardLanguageEntry>
+          <StandardLanguageEntry>          • Gastroesophageal Reflux Disease (GERD)</StandardLanguageEntry>
+          <StandardLanguageEntry> </StandardLanguageEntry>
+          <StandardLanguageEntry>ACE process must not be used to complete the DBQ(s).</StandardLanguageEntry>
+          <StandardLanguageEntry> </StandardLanguageEntry>
+          <StandardLanguageEntry>Your review is not limited to the evidence identified on this request form, or tabbed in the claims folder. If an examination or additional testing is required, obtain them prior to rendering your opinion. </StandardLanguageEntry>
+          <StandardLanguageEntry> </StandardLanguageEntry>
+          <StandardLanguageEntry>POTENTIALLY RELEVANT EVIDENCE: Please enter all tab descriptions of evidence, locations, and dates. </StandardLanguageEntry>
+          <StandardLanguageEntry> </StandardLanguageEntry>
+          <StandardLanguageEntry>NOTE: Your (examiner) review of the record is NOT restricted to the evidence listed below. This list is provided in an effort to assist the examiner in locating potentially relevant evidence. </StandardLanguageEntry>
+          <StandardLanguageEntry>TAB A: DD-214 | Air Force | 01/25/2005 - 01/24/2011 | MOS: 1C171 Air Traffic Control Craftsman | Iraq Campaign Medal</StandardLanguageEntry>
+          <StandardLanguageEntry> </StandardLanguageEntry>
+          <StandardLanguageEntry>TAB B: Military Personnel Record | Pg. 1-61 | Support of Operation Iraqi Freedom Pg. 20 | MOS: C171 Air Traffic Control Craftsman Pg. 12-23 </StandardLanguageEntry>
+          <StandardLanguageEntry> </StandardLanguageEntry>
+          <StandardLanguageEntry>TAB C: STR Medical | Pg. 1-417 | 2004 Enlistment Pg. 240-250 | Iraq 2007,2008 Pg. 8,110-111,316,377,382</StandardLanguageEntry>
+          <StandardLanguageEntry> </StandardLanguageEntry>
+          <StandardLanguageEntry>TAB D: Sec. 1119 Covered Veteran | Iraq 2008 </StandardLanguageEntry>
+          <StandardLanguageEntry> </StandardLanguageEntry>
+          <StandardLanguageEntry>TAB E: Individual Longitudinal Exposure Record (ILER) | Pg. 1-2 | Iraq </StandardLanguageEntry>
+          <StandardLanguageEntry> </StandardLanguageEntry>
+          <StandardLanguageEntry>TAB G: Sec 1117 Covered Veteran | Iraq 2008 </StandardLanguageEntry>
+          <StandardLanguageEntry> </StandardLanguageEntry>
+          <StandardLanguageEntry>TAB H: TERA Memo</StandardLanguageEntry>
+          <StandardLanguageEntry> </StandardLanguageEntry>
+          <StandardLanguageEntry>For this Contention, VBMS expects a results package to at minimum include data pertaining to the following DBQ(s):</StandardLanguageEntry>
+          <StandardLanguageEntry> </StandardLanguageEntry>
+          <StandardLanguageEntry>          • DBQ General Medical - Gulf War</StandardLanguageEntry>
+          <StandardLanguageEntry>          • DBQ Medical Opinion</StandardLanguageEntry>
+          <StandardLanguageEntry>          • DBQ GI Esophageal Disorders</StandardLanguageEntry>
+          <StandardLanguageEntry> </StandardLanguageEntry>
+        </StandardLanguageEntries>
+        <RemandSpecialistIndicator>No</RemandSpecialistIndicator>
+        <ContentionPreferredExaminerGenderIndicator>No</ContentionPreferredExaminerGenderIndicator>
+      </ExamRelatedContention>
+    </ExamRelatedContentions>
+  </ExamSchedulingRequestCreatedEvent>
+</ExamManagementEventNotification>
