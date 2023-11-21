@@ -102,5 +102,5 @@
         <ContentionPreferredExaminerGenderIndicator>No</ContentionPreferredExaminerGenderIndicator>
       </ExamRelatedContention>
     </ExamRelatedContentions>
-  </ExamSchedulingRequestCreatedEvent>
+  </ContentionScopedFaultEvent>
 </ExamManagementEventNotification>
